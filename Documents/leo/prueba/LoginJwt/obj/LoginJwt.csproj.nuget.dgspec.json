@@ -1,0 +1,159 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/riwip5-030/Documents/leo/prueba/LoginJwt/LoginJwt.csproj": {}
+  },
+  "projects": {
+    "/home/riwip5-030/Documents/leo/libreria/JwtAuthLibrary/JwtAuthLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/riwip5-030/Documents/leo/libreria/JwtAuthLibrary/JwtAuthLibrary.csproj",
+        "projectName": "JwtAuthLibrary",
+        "projectPath": "/home/riwip5-030/Documents/leo/libreria/JwtAuthLibrary/JwtAuthLibrary.csproj",
+        "packagesPath": "/home/riwip5-030/.nuget/packages/",
+        "outputPath": "/home/riwip5-030/Documents/leo/libreria/JwtAuthLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/riwip5-030/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/riwip5-030/Documents/leo/prueba/LoginJwt/LoginJwt.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/riwip5-030/Documents/leo/prueba/LoginJwt/LoginJwt.csproj",
+        "projectName": "LoginJwt",
+        "projectPath": "/home/riwip5-030/Documents/leo/prueba/LoginJwt/LoginJwt.csproj",
+        "packagesPath": "/home/riwip5-030/.nuget/packages/",
+        "outputPath": "/home/riwip5-030/Documents/leo/prueba/LoginJwt/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/riwip5-030/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/riwip5-030/Documents/leo/libreria/JwtAuthLibrary/JwtAuthLibrary.csproj": {
+                "projectPath": "/home/riwip5-030/Documents/leo/libreria/JwtAuthLibrary/JwtAuthLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
